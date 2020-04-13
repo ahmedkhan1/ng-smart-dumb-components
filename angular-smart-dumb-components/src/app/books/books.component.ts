@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 })
 export class BooksComponent implements OnInit {
   
-  private API_KEY: string  = 'AIzaSyAuCKd16kMT-Bg5iEHWxPLIP5ggTNWnFcg';
+  private API_KEY: string  = 'API_KEY';
   book: Observable<any[]>;
 
   constructor(private _http: HttpClient) { }
